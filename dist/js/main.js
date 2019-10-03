@@ -39,12 +39,13 @@ const getVoices = () => {
 };
 
 //Line 35, 36 causes voice list duplication
-/*getVoices();
+getVoices();
 if (synth.onvoiceschanged !== undefined) {
   synth.onvoiceschanged = getVoices;
-}*/
+}
 
 //Fix for duplication, run code depending on the browser
+/*
 if (isFirefox) {
     getVoices();
 }
@@ -52,7 +53,7 @@ if (isChrome) {
     if (synth.onvoiceschanged !== undefined) {
         synth.onvoiceschanged = getVoices;
     }
-}
+}*/
 
 // Speak
 const speak = () => {
