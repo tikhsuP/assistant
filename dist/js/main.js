@@ -64,7 +64,7 @@ const speak = () => {
   }
   if (textInput.value !== '') {
     // Add background animation
-    body.style.background = '#141414 url(img/wave.gif)';
+    body.style.background = '#FF7F50 url(img/wave.gif)';
     body.style.backgroundRepeat = 'repeat-x';
     body.style.backgroundSize = '100% 100%';
 
@@ -74,7 +74,7 @@ const speak = () => {
     // Speak end
     speakText.onend = e => {
       console.log('Done speaking...');
-      body.style.background = '#141414';
+      body.style.background = '#FF7F50';
     };
 
     // Speak error
