@@ -1,4 +1,4 @@
-# Text to Speech conversion :raised_hands:
+# Text to Speech conversion
 
 :page_facing_up: :pencil2: =>  :speech_balloon: :loud_sound:
 A website that converts the typed text to speech.
